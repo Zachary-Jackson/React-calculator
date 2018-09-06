@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: silver;
+}
+
+.center {
+  text-align: center;
+}
+
+.box {
+  border: 5px solid lime;
+}
+
+.large-button {
+  width: 100px;
+  height: 100px;
+}
