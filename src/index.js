@@ -23,7 +23,7 @@ class Calculator extends React.Component {
     // May need to run this for loop multiple times
     while (wordList.includes("x")) {
       for (i = 0; i < wordList.length; i++) {
-        if (wordList[i] == "x") {
+        if (wordList[i] === "x") {
           const newValue = wordList[i - 1] * wordList[i + 1];
           wordList[i] = newValue;
           delete wordList[i + 1];
@@ -35,7 +35,7 @@ class Calculator extends React.Component {
 
     while (wordList.includes("/")) {
       for (i = 0; i < wordList.length; i++) {
-        if (wordList[i] == "/") {
+        if (wordList[i] === "/") {
           const newValue = wordList[i - 1] / wordList[i + 1];
           wordList[i] = newValue;
           delete wordList[i + 1];
